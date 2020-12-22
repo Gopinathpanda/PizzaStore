@@ -48,8 +48,8 @@ CRUD operation for a pizza store in django rest framework.
 ## GET API
 
 1. API- http://localhost:8000/pizza/getpizza
-   Method - get
-   Success Response - 200 ok
+2. Method - get
+3.  Success Response - 200 ok
       [
     {
         "pizza_type": "Regular",
@@ -72,7 +72,7 @@ CRUD operation for a pizza store in django rest framework.
         "toppings": "Cheese"
     }
 ]
-Error Response - 400 Bad Request
+4. Error Response - 400 Bad Request
 
 1. API- http://localhost:8000/pizza/getpizza/pizza_type/piza_typeName
    Ex- http://localhost:8000/pizza/getpizza/pizza_type/Regular
