@@ -72,50 +72,50 @@ CRUD operation for a pizza store in django rest framework.
         "toppings": "Cheese"
     }
 ]
-  * Error Response - 400 Bad Request
+    * Error Response - 400 Bad Request
 
-1. * API- http://localhost:8000/pizza/getpizza/pizza_type/piza_typeName
-  * Ex- http://localhost:8000/pizza/getpizza/pizza_type/Regular
-  * Method- get
-  * Success Resposnse- 200 ok
-   [
-    {
-        "pizza_type": "Regular",
-        "pizza_size": "Small",
-        "toppings": "Onions"
-    },
-    {
-        "pizza_type": "Regular",
-        "pizza_size": "Medium",
-        "toppings": "Paneer"
-    },
-    {
-        "pizza_type": "Regular",
-        "pizza_size": "Medium",
-        "toppings": "Cheese"
-    }
-]
-  * Error Response - 400 Bad Request
+ 1. * API- http://localhost:8000/pizza/getpizza/pizza_type/piza_typeName
+    * Ex- http://localhost:8000/pizza/getpizza/pizza_type/Regular
+    * Method- get
+    * Success Resposnse- 200 ok
+      [
+       {
+           "pizza_type": "Regular",
+           "pizza_size": "Small",
+           "toppings": "Onions"
+       },
+       {
+           "pizza_type": "Regular",
+           "pizza_size": "Medium",
+           "toppings": "Paneer"
+       },
+       {
+           "pizza_type": "Regular",
+           "pizza_size": "Medium",
+           "toppings": "Cheese"
+       }
+   ]
+    * Error Response - 400 Bad Request
 
 
-1. * API - http://localhost:8000/pizza/getpizza/pizza_size/piza_sizeName
-   * Ex - http://localhost:8000/pizza/getpizza/pizza_size/Medium
-   * method - get
-   * Success Response - 200 ok
-   [
-    {
-        "pizza_type": "Regular",
-        "pizza_size": "Medium",
-        "toppings": "Paneer"
-    },
-    {
-        "pizza_type": "Regular",
-        "pizza_size": "Medium",
-        "toppings": "Cheese"
-    }
-]
+1.  * API - http://localhost:8000/pizza/getpizza/pizza_size/piza_sizeName
+    * Ex - http://localhost:8000/pizza/getpizza/pizza_size/Medium
+    * method - get
+    * Success Response - 200 ok
+      [
+       {
+           "pizza_type": "Regular",
+           "pizza_size": "Medium",
+           "toppings": "Paneer"
+       },
+       {
+           "pizza_type": "Regular",
+           "pizza_size": "Medium",
+           "toppings": "Cheese"
+       }
+   ]
 
- * Error Response - 400 Bad Request
+   * Error Response - 400 Bad Request
 ## Create Api
 
 1.* API - http://localhost:8000/pizza/addpizza
