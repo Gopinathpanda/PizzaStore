@@ -119,9 +119,9 @@ Error Response - 400 Bad Request
 ## Create Api
 
 1. API - http://localhost:8000/pizza/addpizza
-   Method - post
-   media_type- application/json
-   Request Body -
+  ### Method - post
+  ### edia_type- application/json
+   ### rquest Body -
       {
       "pizza_type":"Square",
       "pizza_size":"Large",
